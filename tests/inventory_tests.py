@@ -15,7 +15,7 @@ class TestInventory(unittest.TestCase):
         self.water_gun = Moves("Water Gun",1.2,"Water",20)
         self.thundershock = Moves("Thundershock",1.2,"Electric",20)
         
-        self.bulbasaur = Character("Bulbasaur", "Grass",[self.tackle,self.vine_whip],["Ivysaur",'Venusaur'], 10, 37, 98, 15, False)
+        self.bulbasaur = Character("Bulbasaur", "Grass",[self.tackle,self.vine_whip],["Ivysaur",'Venusaur'], 10, 38, 98, 15, False)
         self.charmander = Character("Charmander", "Fire",[self.tackle,self.ember],["Charmeleon","Charizard"], 15, 70, 20, 16, False)
         self.squirtle = Character("Squirtle", "Water", [self.tackle,self.water_gun],["Wartortle", "Blastoise"], 24, 45, 105, 15, False)
         self.pikachu = Character("Pikachu", "Electric", [self.tackle,self.thundershock],["Raichu"], 25, 29, 90, 15, False)
